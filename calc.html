@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Jquery-->
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+
+    <title>Calculator</title>
+  </head>
+
+  <body>
+      
+    <div class="container">
+
+            <div class="row mx-auto" style="width: 400px;">
+                <div class="col-sm input-group p-1">
+                    <input type="text" id="result" class="form-control" placeholder="0.0" aria-label="Recipient's username" aria-describedby="button-addon2" readonly>
+                    <label id="op"></label>
+                    <div class="input-group-append">
+                    <button class="btnX btn-outline-secondary" type="button" id= "buttonX">X</button>
+                    </div>
+                </div>
+            </div>     
+
+            <div class="row mx-auto" style="width: 400px;">
+                <div class="col-sm btn-group mr-2 p-1" role="group" aria-label="Primeiro grupo">
+                    <button type="button" name="btn" value="9" class="col-sm-4 btn btn btn-outline-dark">9</button>
+                    <button type="button" name="btn" value="8" class="col-sm-4 btn btn btn-outline-dark">8</button>
+                    <button type="button" name="btn" value="7" class="col-sm-4 btn btn btn-outline-dark">7</button>
+                    <button type="button" name="soma" id="soma" value="+" class="col-sm-4 btn btn btn-outline-dark">+</button>
+                </div>
+            </div>   
+
+            <div class="row mx-auto" style="width: 400px;">
+                <div class="col-sm btn-group mr-2 p-1" role="group" aria-label="Segundo grupo">
+                    <button type="button" name="btn" value="6" class="col-sm-4 btn btn btn-outline-dark">6</button>
+                    <button type="button" name="btn" value="5" class="col-sm-4 btn btn btn-outline-dark">5</button>
+                    <button type="button" name="btn" value="4" class="col-sm-4 btn btn btn-outline-dark">4</button>
+                    <button type="button" name="sub" value="-" class="col-sm-4 btn btn btn-outline-dark">- </button>
+                </div>
+            </div>   
+
+            <div class="row mx-auto" style="width: 400px;">
+                <div class="col-sm btn-group mr-2 p-1" role="group" aria-label="Terceiro grupo">
+                    <button type="button" name="btn" value="3" class="col-sm-4 btn btn btn-outline-dark">3</button>
+                    <button type="button" name="btn" value="2" class="col-sm-4 btn btn btn-outline-dark">2</button>
+                    <button type="button" name="btn" value="1" class="col-sm-4 btn btn btn-outline-dark">1</button>
+                    <button type="button" name="mult" value="*" class="col-sm-4 btn btn btn-outline-dark">*</button>
+                </div>
+            </div> 
+
+            <div class="row mx-auto" style="width: 400px;">
+                <div class="col-sm btn-group mr-2 p-1" role="group" aria-label="Quarto grupo">
+                    <button type="button" name="btn" value="0" class="btnzero col-sm-8 btn btn btn-outline-dark">0</button>
+                    <button type="button" name="btn" value="." class="col-sm-2 btn btn btn-outline-dark">.</button>
+                    <button type="button" name="div" value="/" class="col-sm-2 btn btn btn-outline-dark">/</button>
+                </div>
+            </div> 
+
+            <div class="row mx-auto" style="width: 400px;">
+                <div class="col-sm btn-group mr-2 p-1" role="group" aria-label="Quarto grupo">
+                    <button type="button" name="igual" value="=" class="btnigual col-sm-12 btn btn btn-outline-success">Resultado</button>
+                </div>
+            </div>
+
+    </div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   
+    <!-- Incluindo o arquivo externo de script (javascript): -->
+    <script src="js/script.js"></script>
+
+  </body>
+</html>

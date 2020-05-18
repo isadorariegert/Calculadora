@@ -1,0 +1,34 @@
+body {
+    background: rgb(99, 81, 81);
+    font-family: sans-serif;
+}
+
+.container {
+    position: relative;
+    margin-top: 100px;
+    height: auto;
+    padding: 10px;
+    background: rgba(135, 103, 136, 0.363);
+    border: 1px solid rgb(65, 63, 63);
+    box-shadow: 4px 4px 4px 4px rgb(94, 91, 91);
+}
+
+.btn {
+    margin-top: 4px;
+    width: 50px;
+    height: 50px;
+}
+
+#op {
+    position: absolute;
+    z-index: 999;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(137, 85, 185);
+    margin: 0px 10px;
+    text-align: left;
+}
+
+#result {
+    text-align: right;
+}
